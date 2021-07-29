@@ -1,4 +1,4 @@
-import { kelvinToCelsius } from './temperature.js'
+import { kelvinToCelsius } from './temperature'
 
 export const climApp = async (city) => {
     const apiKey = "21d807407fc08f0dca752a98c2c9b2d1";

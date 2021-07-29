@@ -5,27 +5,27 @@
 }
 html {
     size: 62.5%;
-    background-image: url(./images/fondo-mobile.png);
+    background-image: url(../images/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 header {
     background-color: transparent;
     width: 100%;
-    height: 70px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .header-container{
-    padding: 0;
+    padding: 20px;
 }
 .header-container__titulo {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    margin-top: 10px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 .header-containerUl {
     display: flex;
@@ -43,8 +43,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    padding: 0;
+    margin: 10px;
+    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
@@ -55,40 +55,40 @@ header {
 .header-containerUl__menu p {
     font-family: 'Poppins', sans-serif;
     color: black;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 .svg-icon1 {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 2rem;
+    height: 2rem;
 }
 .svg-icon1 path,
 .svg-icon1 polygon,
 .svg-icon1 rect {
-fill: black;
+    fill: black;
 }
 .svg-icon1 circle {
-stroke: black;
-stroke-width: 1;
+    stroke: black;
+    stroke-width: 1;
 }
 .svg-icon2 {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 2rem;
+    height: 2rem;
 }
 .svg-icon2 path,
 .svg-icon2 polygon,
 .svg-icon2 rect {
-fill: black;
+    fill: black;
 }
 .svg-icon2 circle {
-stroke: black;
-stroke-width: 1;
+    stroke: black;
+    stroke-width: 1;
 }
 .svg-icon3 {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 2rem;
+    height: 2rem;
 }
 .container {
-    width: 70%;
+    width: 55%;
     height: 430px;
     margin: 10px auto;
     display: flex;
@@ -99,33 +99,33 @@ stroke-width: 1;
     filter: drop-shadow(2px 4px 6px black);
 }
 .container-izquierda {
-    width: 100%;
-    min-width: 263px;
-    order: 2;
+    width: 60%;
+    order: 1;
     background-color: rgba(78, 77, 77, 0.466);
+    border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0px;
 }
 .container-izquierda__resultado{
     width: 100%;
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .container-izquierda__resultado p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .container-derecha {
-    width: 100%;
-    min-width: 263px;
-    order: 1;
+    width: 40%;
+    order: 2;
     background-color: rgba(173, 170, 170, 0.541);
-    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
 }
 .container-derecha__busqueda {
     display: flex;
@@ -142,7 +142,7 @@ stroke-width: 1;
     font-size: 1rem;
     text-align: center;
     outline: none;
-    border-top-left-radius: 10px;
+    border-top-left-radius: 0px;
 }
 ::placeholder {
     color: rgba(0, 0, 0, 0.562);
@@ -157,7 +157,6 @@ stroke-width: 1;
     font-size: 1rem;
     text-align: center;
     outline: none;
-    border-top-left-radius: 10px;
 }
 .bad-input:focus {
     border: 2px solid rgba(255, 0, 0, 0.281);
@@ -170,14 +169,14 @@ stroke-width: 1;
     background-image: url("https://img.icons8.com/ios/50/000000/search-more.png");
     background-repeat: no-repeat;
     background-size: contain;
+    border-top-right-radius: 9px;
     cursor: pointer;
-    border-top-right-radius: 10px;
 }
 .container-derecha__resultado {
     width: 100%;
-    height: auto;
+    height: 90%;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,13 +184,9 @@ stroke-width: 1;
     text-align: center;
 }
 .container-derecha__resultado p {
-    margin-top: 10px;
     font-size: 1rem;
     font-weight: 200;
     font-style: italic;
-}
-.icon {
-    height: 100px;
 }
 footer {
     width: 100%;
@@ -206,4 +201,20 @@ footer p{
 footer a {
     text-decoration: none;
     color: black;
+}
+.container-derecha__resultado-button {
+    background-color: rgba(78, 77, 77, 0.466);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin: 0.7rem;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.container-derecha__resultado-button:hover {
+    background-color: rgba(158, 154, 154, 0.466);
+    color: white;
+    border: 2px solid white;
 }

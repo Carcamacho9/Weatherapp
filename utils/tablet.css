@@ -5,7 +5,7 @@
 }
 html {
     size: 62.5%;
-    background-image: url(./images/fondo-mobile.png);
+    background-image: url(../images/fondo-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

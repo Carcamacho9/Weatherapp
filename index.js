@@ -1,4 +1,4 @@
-import { climApp } from './climApp.js'
+import { climApp } from './components/climApp'
 
 const searchButton = document.querySelector("#search");
 const container = document.querySelector('.container-derecha__resultado');
